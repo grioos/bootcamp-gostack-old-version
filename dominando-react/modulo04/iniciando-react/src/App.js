@@ -1,7 +1,10 @@
 import React from 'react'
+import './App.css'
+
+import desktop from './assets/desktop.jpg'
 
 function App() {
-    return <h1>Hello Rocketseat</h1>
+    return <img src={desktop} width="200" />
 }
 
 export default App;
