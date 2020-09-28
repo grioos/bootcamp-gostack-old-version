@@ -92,19 +92,19 @@ class DeliveryController {
 
         const delivery = await Delivery.findByPk(req.params.id);
 
-        const recipientExists = await Recipient.findOne({
+        const recipient = await Recipient.findOne({
             where: { id: recipient_id },
         });
 
-        const deliveryExists = await Deliveryman.findOne({
+        const deliveryman = await Deliveryman.findOne({
             where: { id: deliveryman_id },
         });
 
-        if (!recipientExists) {
+        if (!recipient) {
             return res.status(400).json({ error: 'Recipient does not exists' });
         }
 
-        if (!deliveryExists) {
+        if (!deliveryman) {
             return res
                 .status(400)
                 .json({ error: 'Deliveryman does not exists' });
@@ -114,6 +114,12 @@ class DeliveryController {
             recipient_id,
             deliveryman_id,
             product,
+        });
+
+        await Queue.add(NewDeliveryMail.key, {
+            delivery,
+            recipient,
+            deliveryman,
         });
 
         return res.json(delivery);
