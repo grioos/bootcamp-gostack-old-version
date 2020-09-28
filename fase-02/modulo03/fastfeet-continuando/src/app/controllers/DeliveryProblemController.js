@@ -69,9 +69,12 @@ class DeliveryProblemController {
             return res.status(400).json({ error: 'Delivery does not exists' });
         }
 
-        const deliveryman = Deliveryman.findByPk(delivery.deliveryman_id, {
-            attributes: ['id', 'name', 'email'],
-        });
+        const deliveryman = await Deliveryman.findByPk(
+            delivery.deliveryman_id,
+            {
+                attributes: ['id', 'name', 'email'],
+            }
+        );
 
         if (!deliveryman) {
             return res
@@ -82,9 +85,11 @@ class DeliveryProblemController {
         await delivery.update({
             canceled_at: new Date(),
         });
-        console.log(deliveryman);
+
         await Queue.add(CancellationMail.key, {
             deliveryman,
+            deliveryProblem,
+            delivery,
         });
 
         return res.json(delivery);

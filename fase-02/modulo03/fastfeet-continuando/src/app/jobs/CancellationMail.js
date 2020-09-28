@@ -6,15 +6,16 @@ class CancellationMail {
     }
 
     async handle({ data }) {
-        const deliveryman = data;
-        console.log(deliveryman);
+        const { deliveryman, deliveryProblem, delivery } = data;
+
         await Mail.sendMail({
             to: `${deliveryman.name} <${deliveryman.email}>`,
             subject: 'Encomenda cancelada',
             template: 'cancellation',
             context: {
-                deliveryman: deliveryman.name,
-                description: 'EU QUERO QUE VOCÊ SE AME SEU FILHO DE UMA ...',
+                product: delivery.product,
+                product_id: delivery.id,
+                description: deliveryProblem.description,
             },
         });
     }
