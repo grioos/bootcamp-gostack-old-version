@@ -5,10 +5,21 @@ class TechList extends Component {
    state = {
     newTech: '',
        techs: [
-           'Node.js',
-           'ReactJs',
-           'React Native'
        ]
+   }
+
+   componentDidMount() {
+    const techs = localStorage.getItem('techs')
+
+    if(techs) {
+        this.setState({ techs: JSON.parse(techs) })
+    }
+   }
+
+   componentDidUpdate(_, prevState) {
+    if(prevState.techs != this.state.techs) {
+        localStorage.setItem('techs', JSON.stringify(this.state.techs))
+    }
    }
 
    handleInputChange = e => {
