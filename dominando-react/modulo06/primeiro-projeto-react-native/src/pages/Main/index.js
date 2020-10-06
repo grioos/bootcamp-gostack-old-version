@@ -66,7 +66,7 @@ export default class Main extends Component {
     };
 
     render() {
-        const { users, newUser, loadingr } = this.state;
+        const { users, newUser, loading } = this.state;
 
         return (
             <Container>
