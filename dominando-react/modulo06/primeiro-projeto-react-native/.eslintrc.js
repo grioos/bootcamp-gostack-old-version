@@ -8,6 +8,11 @@ module.exports = {
         'prettier',
         'prettier/react',
     ],
+    globals: {
+        Atomics: 'readonly',
+        SharedArrayBuffer: 'readonly',
+        __DEV__: 'readonly',
+    },
     parserOptions: {
         ecmaFeatures: {
             jsx: true,
