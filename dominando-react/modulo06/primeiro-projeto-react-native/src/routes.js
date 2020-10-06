@@ -1,4 +1,3 @@
-import 'react-native-gesture-handler';
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -18,7 +17,7 @@ export default function Routes() {
                     headerStyle: {
                         backgroundColor: '#7159c1',
                     },
-                    headerTintColor: '#FFF',
+                    headerTintColor: '#333',
                 }}
             >
                 <Stack.Screen
