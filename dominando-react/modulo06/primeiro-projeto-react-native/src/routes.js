@@ -25,7 +25,11 @@ export default function Routes() {
                     component={Main}
                     options={Main.navigationOptions}
                 />
-                <Stack.Screen name="User" component={User} />
+                <Stack.Screen
+                    name="User"
+                    component={User}
+                    options={User.navigationOptions}
+                />
             </Stack.Navigator>
         </NavigationContainer>
     );
