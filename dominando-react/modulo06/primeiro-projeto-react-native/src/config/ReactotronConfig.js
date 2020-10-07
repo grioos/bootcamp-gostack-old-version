@@ -1,4 +1,3 @@
-import reactotron from 'reactotron-react-native';
 import Reactotron from 'reactotron-react-native';
 
 if (__DEV__) {
