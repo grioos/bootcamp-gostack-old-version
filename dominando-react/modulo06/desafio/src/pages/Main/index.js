@@ -129,7 +129,7 @@ export default class Main extends Component {
                             </ProfileButton>
                         </User>
                     )}
-                ></List>
+                />
             </Container>
         );
     }
