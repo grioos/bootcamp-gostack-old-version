@@ -1,4 +1,4 @@
-import { call, put, all, takeLatest } from 'redux-saga';
+import { call, put, takeLatest, all } from 'redux-saga/effects';
 import api from '../../../services/api';
 import { addToCartSuccess } from './actions';
 

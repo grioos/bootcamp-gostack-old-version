@@ -1,6 +1,6 @@
 export function addToCartRequest(id) {
     return {
-        type: '@cart/ADD',
+        type: '@cart/ADD_REQUEST',
         id,
     };
 }

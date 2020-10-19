@@ -64,10 +64,12 @@ class Home extends Component {
 
 const mapStateToProps = state => ({
     amount: state.cart.reduce((amount, product) => {
-        return (amount[product.id] = product.amount)
+        amount[product.id] = product.amount
+
+        return amount
     }, {})
 })
 
 const mapDispatchToProps = dispatch => bindActionCreators(CartActions, dispatch)
 
-export default connect(null, mapDispatchToProps)(Home)
+export default connect(mapStateToProps, mapDispatchToProps)(Home)
