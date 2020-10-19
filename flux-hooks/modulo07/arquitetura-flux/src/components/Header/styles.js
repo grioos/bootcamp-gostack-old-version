@@ -1,22 +1,21 @@
-import styled from 'styled-components'
-import { Link } from 'react-router-dom'
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Container = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 50px 0;
-    
 `;
 
 export const Cart = styled(Link)`
     display: flex;
     align-items: center;
     text-decoration: none;
-    transition: opacity .2s;
+    transition: opacity 0.2s;
 
     &:hover {
-        opacity: .7;
+        opacity: 0.7;
     }
 
     div {
@@ -33,4 +32,4 @@ export const Cart = styled(Link)`
             color: #999;
         }
     }
-`
+`;

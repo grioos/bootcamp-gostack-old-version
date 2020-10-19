@@ -9,6 +9,10 @@ module.exports = {
     'prettier',
     'prettier/react'
   ],
+  globals: {
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly'
+  },
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -18,16 +22,19 @@ module.exports = {
   },
   plugins: [
     'react',
-    'prettier'
+    'prettier',
+    'react-hooks'
   ],
   rules: {
-        'prettier/prettier': 'error',
-        'react/jsx-filename-extension': [
-            'warn',
-            { extensions: ['.jsx', '.js'] },
-        ],
-        'import/prefer-default-export': 'off',
-        'no-param-reassign': 'off',
-        'no-console': ['error', { allow: ['tron'] }]
+    'prettier/prettier': 'error',
+    'react/jsx-filename-extension': [
+        'warn',
+        { extensions: ['.jsx', '.js'] },
+    ],
+    'import/prefer-default-export': 'off',
+    'no-param-reassign': 'off',
+    'no-console': ['error', { allow: ['tron'] }],
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn'
   },
 };

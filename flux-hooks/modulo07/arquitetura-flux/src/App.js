@@ -1,14 +1,14 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom'
-import { Provider } from 'react-redux'
+import { BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
 
-import './config/ReactotronConfig'
+import './config/ReactotronConfig';
 
-import GlobalStyle from './styles/global'
-import Header from './components/Header'
-import Routes from './routes'
+import GlobalStyle from './styles/global';
+import Header from './components/Header';
+import Routes from './routes';
 
-import store from './store'
+import store from './store';
 
 function App() {
     return (
@@ -19,7 +19,7 @@ function App() {
                 <Routes />
             </BrowserRouter>
         </Provider>
-    )
+    );
 }
 
 export default App;

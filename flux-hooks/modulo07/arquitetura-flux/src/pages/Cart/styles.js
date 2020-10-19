@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { darken } from 'polished'
+import styled from 'styled-components';
+import { darken } from 'polished';
 
 export const Container = styled.div`
     padding: 30px;
@@ -20,10 +20,10 @@ export const Container = styled.div`
             padding: 12px 20px;
             font-weight: bold;
             text-transform: uppercase;
-            transition: background .2s;
+            transition: background 0.2s;
 
             &:hover {
-                background: ${darken(.3, '#7159c1')}
+                background: ${darken(0.3, '#7159c1')};
             }
         }
     }
@@ -77,7 +77,7 @@ export const ProductTable = styled.table`
         border: 0;
         padding: 6px;
     }
-`
+`;
 
 export const Total = styled.div`
     display: flex;

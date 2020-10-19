@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { darken } from 'polished'
+import styled from 'styled-components';
+import { darken } from 'polished';
 
 export const ProductList = styled.ul`
     display: grid;
@@ -13,7 +13,7 @@ export const ProductList = styled.ul`
         background: #fff;
         border-radius: 4px;
         padding: 20px;
-   
+
         img {
             align-self: center;
             max-width: 250px;
@@ -42,18 +42,18 @@ export const ProductList = styled.ul`
 
             display: flex;
             align-items: center;
-            transition: background .2s;
+            transition: background 0.2s;
 
             &:hover {
-                background: ${darken(.03, '#7159c1')}
+                background: ${darken(0.03, '#7159c1')};
             }
 
             div {
                 display: flex;
                 align-items: center;
                 padding: 12px;
-                background: rgba(0, 0, 0, .1);
-       
+                background: rgba(0, 0, 0, 0.1);
+
                 svg {
                     margin-right: 5px;
                 }
