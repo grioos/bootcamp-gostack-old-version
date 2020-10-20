@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Fastfeet" title="Fastfeet" src="https://raw.githubusercontent.com/rocketseat-education/bootcamp-gostack-desafio-03/master/.github/logo.pngg" width="300px" />
+  <img alt="Fastfeet" title="Fastfeet" src="https://raw.githubusercontent.com/rocketseat-education/bootcamp-gostack-desafio-03/master/.github/logo.png" width="300px" />
 </h1>
 
 <h3 align="center">
