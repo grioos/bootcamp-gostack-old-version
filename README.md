@@ -43,11 +43,36 @@ Bootcamp oferecido pela **[Rocketseat](https://rocketseat.com.br/)**.
 -   [Módulo 01](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-nodejs/modulo01)
     -   [Ambientes e Conceitos](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-nodejs/modulo01/ambiente-conceitos)
     -   [Conceitos do Node.js](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-nodejs/modulo01/conceitos-nodejs)
--   [Manipulando a DOM](https://github.com/grioos/cursos-starter/tree/master/javascript/modulo02)
--   [App de Todo](https://github.com/grioos/cursos-starter/tree/master/javascript/modulo03)
--   [JS Assíncrono](https://github.com/grioos/cursos-starter/tree/master/javascript/modulo04)
+    
+-   [Módulo 02](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-nodejs/modulo02)
+    -   [Fastfeet Início](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-nodejs/modulo02/fastfeet-inicio)
+    -   [Iniciando Back-end do GoBarber](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-nodejs/modulo02/iniciando-backend-gobarber)
+    
+-   [Módulo 03](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-nodejs/modulo03)
+    -   [Continuando API do GoBarber](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-nodejs/modulo03/continuando-api-gobarber)
+    -   [FastFeet Continuando Aplicação](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-nodejs/modulo03/fastfeet-continuando)
+    
 
+### Fase 03 [Dominando o React](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-react)
 
+-   [Módulo 04](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-react/modulo04)
+    -   [Iniciando no React](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-react/modulo04/iniciando-react)
+    -   [Introdução ao React](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-react/modulo04/introducao-react)
+    
+-   [Módulo 05](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-react/modulo05)
+    -   [Aplicação com ReactJS](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-react/modulo05/desafio)
+    -   [Primeiro Projeto com ReactJS](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-react/modulo05/primeiro-projeto-react)
+    
+-   [Módulo 06](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-react/modulo06)
+    -   [Aplicação com React Native](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-react/modulo06/desafio)
+    -   [Primeiro Projeto com React Native](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-react/modulo06/primeiro-projeto-react-native)
+    
+### Fase 04 [Arquitetura Flux e React Hooks](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/flux-hooks) 
+   
+-   [Módulo 07](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/flux-hooks/modulo07)
+    -   [Arquitetura Flux](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/flux-hooks/modulo07/arquitetura-flux)
+
+    
 ## :muscle: Como contribuir para o projeto
 
 1. Faça um **fork** do projeto.
