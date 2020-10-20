@@ -28,7 +28,7 @@ O layout da aplicação está [nesse link](.github/layout.sketch) que pode ser a
 
 Na imagem abaixo destaquei cada componente que você criará e abaixo da imagem está a descrição e responsabilidades de cada um:
 
-![Componentes](.github/components.png)
+![Componentes](https://raw.githubusercontent.com/rocketseat-education/bootcamp-gostack-desafio-04/master/.github/components.png)
 
 **Header (Amarelo):** Responsável por exibir a logo e o link para acessar o perfil;
 
