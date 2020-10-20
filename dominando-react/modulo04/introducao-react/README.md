@@ -16,13 +16,11 @@ As informações contidas na interface são **estáticas** e não precisam refle
 
 ### Tela da aplicação
 
-![Facebook](.github/facebook.png)
+![Facebook](https://raw.githubusercontent.com/rocketseat-education/bootcamp-gostack-desafio-04/master/.github/facebook.png)
 
 O layout não precisa ficar exatamente igual, você pode utilizar sua criatividade para modificar da maneira que preferir.
 
 O mais importante é que todos elementos apareçam em tela.
-
-O layout da aplicação está [nesse link](.github/layout.sketch) que pode ser aberto por essa ferramenta gratuita e online: https://www.figma.com/
 
 ### Componentes
 
