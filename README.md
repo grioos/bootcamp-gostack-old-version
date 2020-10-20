@@ -43,7 +43,7 @@ Bootcamp oferecido pela **[Rocketseat](https://rocketseat.com.br/)**.
     
 -   [Módulo 02](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-nodejs/modulo02)
     -   [Fastfeet Início](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-nodejs/modulo02/fastfeet-inicio)
-    -   [Iniciando Back-end do GoBarber](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-nodejs/modulo02/iniciando-backend-gobarber)
+    -   [Iniciando Back-End do GoBarber](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-nodejs/modulo02/iniciando-backend-gobarber)
     
 -   [Módulo 03](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-nodejs/modulo03)
     -   [Continuando API do GoBarber](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-nodejs/modulo03/continuando-api-gobarber)
