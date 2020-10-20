@@ -41,8 +41,8 @@ Bootcamp oferecido pela **[Rocketseat](https://rocketseat.com.br/)**.
 ### Fase 02 [Dominando o Node.js](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-nodejs)
 
 -   [Módulo 01](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-nodejs/modulo01)
---    [Ambientes e Conceitos](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-nodejs/modulo01/ambiente-conceitos)
---    [Conceitos do Node.js](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-nodejs/modulo01/conceitos-nodejs)
+  -   [Ambientes e Conceitos](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-nodejs/modulo01/ambiente-conceitos)
+  -   [Conceitos do Node.js](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/dominando-nodejs/modulo01/conceitos-nodejs)
 -   [Manipulando a DOM](https://github.com/grioos/cursos-starter/tree/master/javascript/modulo02)
 -   [App de Todo](https://github.com/grioos/cursos-starter/tree/master/javascript/modulo03)
 -   [JS Assíncrono](https://github.com/grioos/cursos-starter/tree/master/javascript/modulo04)
