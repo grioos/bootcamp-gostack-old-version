@@ -1,4 +1,3 @@
-import sequelize from 'sequelize';
 import Sequelize, { Model } from 'sequelize';
 
 class User extends Model {
