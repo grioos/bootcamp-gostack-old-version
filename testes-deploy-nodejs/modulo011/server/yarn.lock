@@ -480,6 +480,13 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@sucrase/jest-plugin@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@sucrase/jest-plugin/-/jest-plugin-2.0.0.tgz#bcca4d877f5013fd66d4092e4c8ba475b18228e4"
+  integrity sha512-UqmtOnj2OliwV1qKFCQsci41vPX665wGvf5YosRjL+l6jF69HrgB3T8gGnCcF4tAmRycYw8t59x+Dgz64szXWA==
+  dependencies:
+    sucrase "^3.0.0"
+
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.7":
   version "7.1.12"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.12.tgz#4d8e9e51eb265552a7e4f1ff2219ab6133bdfb2d"
@@ -5143,7 +5150,7 @@ strip-json-comments@^2.0.1, strip-json-comments@~2.0.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
   integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
 
-sucrase@^3.10.1:
+sucrase@^3.0.0, sucrase@^3.10.1:
   version "3.16.0"
   resolved "https://registry.yarnpkg.com/sucrase/-/sucrase-3.16.0.tgz#19b5b886ccca270dd5ca12ff060eeaf0b599735f"
   integrity sha512-ovVuswxV5TayCPXfTk8bgBgk6uNRvsinIkEpq0J6zS1xXCx5N/LLGcbsKdRhqn/ToZylMX6+yXaR1LSn1I42Pg==
