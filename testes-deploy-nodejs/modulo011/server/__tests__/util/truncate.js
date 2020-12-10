@@ -1,16 +1,12 @@
 import database from '../../src/database';
 
-function truncate() {
-  const models = database.connection;
-
+export default function truncate() {
   return Promise.all(
-    Object.keys(models).map((key) => {
-      return models[key].destroy({
+    Object.keys(database.connection.models).map((key) => {
+      return database.connection.models[key].destroy({
         truncate: true,
         force: true,
       });
     })
   );
 }
-
-export default truncate;
