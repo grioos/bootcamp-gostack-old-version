@@ -54,4 +54,4 @@ class CreateAppointmentService {
     }
 }
 
-module.exports = CreateAppointmentService;
+export default new CreateAppointmentService();
