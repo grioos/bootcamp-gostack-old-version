@@ -1167,6 +1167,11 @@ express-handlebars@^5.1.0:
     graceful-fs "^4.2.4"
     handlebars "^4.7.6"
 
+express-rate-limit@^5.2.3:
+  version "5.2.3"
+  resolved "https://registry.yarnpkg.com/express-rate-limit/-/express-rate-limit-5.2.3.tgz#ae73b3dc723decd697797611bd96e9b34a912f6c"
+  integrity sha512-cjQH+oDrEPXxc569XvxhHC6QXqJiuBT6BhZ70X3bdAImcnHnTNMVuMAJaT0TXPoRiEErUrVPRcOTpZpM36VbOQ==
+
 express-redis@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/express-redis/-/express-redis-2.0.1.tgz#b03f88558eaeb8fe44db0346691a5994590ef87b"

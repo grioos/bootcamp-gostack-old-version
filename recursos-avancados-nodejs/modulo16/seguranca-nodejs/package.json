@@ -20,6 +20,7 @@
     "express-brute": "^1.0.1",
     "express-brute-redis": "^0.0.1",
     "express-handlebars": "^5.1.0",
+    "express-rate-limit": "^5.2.3",
     "express-redis": "^2.0.1",
     "helmet": "^4.2.0",
     "ioredis": "^4.19.2",
