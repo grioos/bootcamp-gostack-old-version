@@ -78,7 +78,10 @@ Bootcamp oferecido pela **[Rocketseat](https://rocketseat.com.br/)**.
    
 -   [Módulo 15](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/recursos-avancados-nodejs/modulo15)
     -   [Patterns e recursos avançados](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/recursos-avancados-nodejs/modulo15/patterns-recursos)
-
+    
+-   [Módulo 16](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/recursos-avancados-nodejs/modulo16)
+    -   [Segurança no NodeJS](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/recursos-avancados-nodejs/modulo16/seguranca-nodejs)
+    
 ## :muscle: Como contribuir para o projeto
 
 1. Faça um **fork** do projeto.
