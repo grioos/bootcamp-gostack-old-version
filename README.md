@@ -69,7 +69,16 @@ Bootcamp oferecido pela **[Rocketseat](https://rocketseat.com.br/)**.
 -   [Módulo 07](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/flux-hooks/modulo07)
     -   [Arquitetura Flux](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/flux-hooks/modulo07/arquitetura-flux)
 
-    
+### Fase 06 [Testes e Deploy no Node.js](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/testes-deploy-nodejs) 
+   
+-   [Módulo 11](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/testes-deploy-nodejs/modulo011)
+    -   [Testes no NodeJS](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/testes-deploy-nodejs/modulo011/server)
+
+### Fase 08 [Recursos avançados Node.js](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/recursos-avancados-nodejs) 
+   
+-   [Módulo 15](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/recursos-avancados-nodejs/modulo15)
+    -   [Patterns e recursos avançados](https://github.com/grioos/bootcamp-gostack-old-version/tree/master/recursos-avancados-nodejs/modulo15/patterns-recursos)
+
 ## :muscle: Como contribuir para o projeto
 
 1. Faça um **fork** do projeto.
