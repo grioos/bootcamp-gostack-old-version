@@ -3,6 +3,7 @@ import express from 'express';
 import path from 'path';
 import helmet from 'helmet';
 import redis from 'redis';
+import cors from 'cors';
 import RateLimit from 'express-rate-limit';
 import RateLimitRedis from 'rate-limit-redis';
 import Youch from 'youch';
@@ -27,6 +28,11 @@ class App {
     middlewares() {
         this.server.use(Sentry.Handlers.requestHandler());
         this.server.use(helmet());
+        this.server.use(
+            cors({
+                origin: process.env.FRONT_URL,
+            })
+        );
         this.server.use(express.json());
         this.server.use(
             '/files',
